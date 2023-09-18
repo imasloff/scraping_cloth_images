@@ -8,12 +8,11 @@
 import os
 # import cv2
 import scrapy
-import urllib
-import numpy as np
+# import urllib
+# import numpy as np
 from urllib import parse
 from scrapy.pipelines.images import ImagesPipeline
 from itemadapter import ItemAdapter
-from scrapy.exceptions import DropItem
 
 
 # hog = cv2.HOGDescriptor()
